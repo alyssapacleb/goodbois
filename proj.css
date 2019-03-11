@@ -1,6 +1,7 @@
 @font-face {
     font-family: myFirstFont;
     src: url(geomanist-regular-webfont.woff);
+    /* https://befonts.com/geomanist-font-family.html */
 }
 
 h1 {
