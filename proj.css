@@ -1,0 +1,13 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(geomanist-regular-webfont.woff);
+}
+
+h1 {
+    font-size: 175px;
+}
+
+body {
+    font-family: myFirstFont;
+    font-weight: bold;
+}
