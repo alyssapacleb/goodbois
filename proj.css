@@ -1,14 +1,34 @@
 @font-face {
     font-family: myFirstFont;
     src: url(geomanist-regular-webfont.woff);
-    /* https://befonts.com/geomanist-font-family.html */
-}
-
-h1 {
-    font-size: 175px;
 }
 
 body {
     font-family: myFirstFont;
     font-weight: bold;
+    padding-left: 75px;
+    padding-right: 75px;
+
 }
+
+.TITLE {
+
+    margin-top:0px;
+    padding-top:50px;
+    padding-left: 75px;
+    background-color:#C7BFE6;
+    color:white;
+    font-size: 175px;
+    height:300px;
+}
+
+img {
+    padding-top:50px;
+}
+
+.sub {
+    font-family: myFirstFont;
+    font-weight: bold;
+    color: #C7BFE6;
+}
+
