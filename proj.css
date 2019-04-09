@@ -1,34 +1,107 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(geomanist-regular-webfont.woff);
+    src: url(reg.woff);
 }
 
-body {
-    font-family: myFirstFont;
-    font-weight: bold;
-    padding-left: 75px;
-    padding-right: 75px;
+HTML {
+    display:block;
+    font-family:myFirstFont;
+    width:100%;
+}
 
+.header {
+        display:block;
+        width:100%;
+        text-align:right;
+        padding-bottom:10px;
+        padding-right:10px;
+}
+
+.button {
+        font-family:myFirstFont;
+        width:100px;
+        font-size:12pt;
+        border-radius:4px;
+        text-align:center;
+        background-color: white;
+        color:dimgray;
 }
 
 .TITLE {
-
+    display:block;
+    font-family: myFirstFont;
+    width:100%;
     margin-top:0px;
     padding-top:50px;
-    padding-left: 75px;
+    margin-left: 0px;
     background-color:#C7BFE6;
     color:white;
     font-size: 175px;
     height:300px;
+    /*padding-left:0px;*/
+    margin-bottom:0px;
+    text-align:center;
 }
+
+
+a {
+    border: 0px none;
+    font-family:myFirstFont;
+    color:dimgray;
+    font-size: 20px;
+
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:dimgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color:dimgray;
+    text-decoration: underline;
+}
+
+a:active {
+    color:dimgray;
+    text-decoration: underline;
+}
+table {
+    font-family:myFirstFont;
+    padding-top: 15px;
+    width:100%;
+    text-align:center;
+    border-bottom:1px solid dimgray;
+}
+.bod {
+    font-size:10pt;
+    text-align:left;
+    font-family:myFirstFont;
+    border:0px none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 
 img {
     padding-top:50px;
 }
 
 .sub {
+    font-size:20pt;
+    text-align:left;
     font-family: myFirstFont;
     font-weight: bold;
     color: #C7BFE6;
+    padding-left: 40px;
+    padding-bottom:20px;
+    padding-top: 15px;
 }
-
+.maintab {
+    border: 0px none;
+}
