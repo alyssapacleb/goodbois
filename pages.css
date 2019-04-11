@@ -10,8 +10,9 @@ HTML {
 }
 
 
+
 a {
-    border: 0px none;
+    border: 0 none;
     font-family:myFirstFont;
     color:dimgray;
     font-size: 20px;
@@ -44,40 +45,15 @@ table {
     text-align:center;
     border-bottom:1px solid dimgray;
 }
-.bod {
-    font-size:10pt;
-    text-align:left;
-    font-family:myFirstFont;
-    border:0px none;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-
-
-.sub {
-    font-size:20pt;
-    text-align:left;
-    font-family: myFirstFont;
-    font-weight: bold;
-    color: #C7BFE6;
-    padding-left: 40px;
-    padding-bottom:20px;
-    padding-top: 15px;
-}
-.maintab {
-    border: 0px none;
-}
-
 .header {
     display:flex;
     direction: ltr;
     width:100%;
     align-items:center;
     justify-content: flex-end;
-    text-align:center;
-    padding-right:5px;
-    height:50px;
+    text-align:right;
+    padding-bottom:10px;
+    padding-right:10px;
 }
 
 .button {
@@ -89,19 +65,20 @@ table {
     background-color: white;
     color:dimgray;
 }
+
 .TITLE {
     display:block;
     font-family: myFirstFont;
     width:100%;
-    margin-top:auto;
-    padding-bottom:10px;
+    margin-top:0px;
+    padding-top:50px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     background-color:#C7BFE6;
     color:white;
-    font-size: 175px;
-    height:250px;
-    /*padding-left:0px;*/
+    font-size: 75px;
+    height:150px;
+    padding-left:20px;
     margin-bottom:0px;
-    text-align:center;
+    text-align:left;
 }
