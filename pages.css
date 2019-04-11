@@ -69,16 +69,81 @@ table {
 .TITLE {
     display:block;
     font-family: myFirstFont;
-    width:100%;
+    width:96%;
     margin-top:0px;
-    padding-top:50px;
+    padding-top:10px;
     margin-left: auto;
     margin-right: auto;
     background-color:#C7BFE6;
     color:white;
     font-size: 75px;
-    height:150px;
+    height:100px;
     padding-left:20px;
     margin-bottom:0px;
     text-align:left;
 }
+
+p {
+    color:dimgray;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.sub {
+    font-size:20pt;
+    text-align:left;
+    font-family: myFirstFont;
+    font-weight: bold;
+    color: #C7BFE6;
+    padding-left: 20px;
+    padding-bottom:0px;
+    padding-top: 15px;
+}
+
+.form {
+    display:flex;
+    justify-content: center;
+    text-align: left;
+    border-bottom:0px none;
+    width: 100%;
+}
+
+.form td {
+    padding:10px;
+}
+
+textarea, input{
+    border:1px solid dimgray;
+}
+
+.pp {
+    text-align:center;
+    border-radius:100%;
+    padding-left:10px;
+}
+
+.pparea {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom:0px none;
+    width: 100%;
+}
+.pparea td {
+    padding-left:50px;
+    padding-right:50px;
+}
+
+button {
+    font-family:myFirstFont;
+    width:100px;
+    font-size:12pt;
+    border-radius:4px;
+    text-align:center;
+    background-color: white;
+    color:dimgray;
+}
+

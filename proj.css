@@ -78,6 +78,7 @@ table {
     text-align:center;
     padding-right:5px;
     height:50px;
+    padding-bottom:10px;
 }
 
 .button {
@@ -90,8 +91,8 @@ table {
     color:dimgray;
 }
 .TITLE {
-    display:block;
     font-family: myFirstFont;
+    display:block;
     width:100%;
     margin-top:auto;
     padding-bottom:10px;
