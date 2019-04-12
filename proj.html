@@ -7,7 +7,7 @@
     <title>Good Bois</title>
 </head>
 
-<body>
+<body onload="slide()">
 
 <div class = "header">
 
@@ -45,11 +45,44 @@
         </td>
 
     </tr>
-
+        
 </table>
+    
+    <div id = "border" class = "border">
+
+			<img id = "pic" class = "pic" alt = "Picture" src = "./img01">
+
+			<p id = "cap" class = "cap"></p>
+
+    </div>
 <p align=right><br><br><br>
 Signed: Alyssa June Pacleb, Daniel Sanchez Date:
 <script>document.write(new Date().toLocalDateString());</script>
 3/12/2019</p>
+    
+    <script type = "text/javascript">
+	<!--
+		var idx = 0;
+		var imgs = ["img01.JPG","img02.JPG","img03.JPG","img04.JPG",];
+		var captions = ["Leo","Marley","Xasha","Waffle"];
+		
+	
+
+		function slide(){
+			if (idx > 3){
+				idx = 0;
+			}
+			
+			document.getElementById("pic").src = imgs[idx];
+			document.getElementById("cap").innerHTML = captions[idx];
+			
+
+			idx = idx + 1;
+
+		}
+		
+		setInterval(slide, 3000);
+	// -->
+	</script>	
 </body>
 </html>

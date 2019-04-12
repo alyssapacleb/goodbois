@@ -106,3 +106,11 @@ table {
     margin-bottom:0px;
     text-align:center;
 }
+
+#broder{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    align-content: center;
+    
+}
