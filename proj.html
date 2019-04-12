@@ -12,9 +12,9 @@
 <div class = "header">
 
     <input class = "button" type = button onclick= "window.location.href = 'login.html';" value = login>
-
+    &nbsp;
     <input class = "button" type = "button" onclick = "window.location.href = 'signup.html';" value = "signup">
-
+    &nbsp;
     <a href="./proj.html"> <img src="circ2.jpg" alt="whitebackground logo" height = 50px/> </a>
 
 </div>
@@ -47,14 +47,13 @@
     </tr>
         
 </table>
-    
-    <div id = "border" class = "border">
 
-			<img id = "pic" class = "pic" alt = "Picture" src = "./img01">
+<div id = "border" class = "border">
+    <p class = "cap">Our Best Bois</p>
+    <img id = "pic" class = "pic" alt = "Picture" src = "./img01.JPG">
+    <p id = "cap" class = "cap">
+</div>
 
-			<p id = "cap" class = "cap"></p>
-
-    </div>
 <p align=right><br><br><br>
 Signed: Alyssa June Pacleb, Daniel Sanchez Date:
 <script>document.write(new Date().toLocalDateString());</script>
@@ -63,13 +62,13 @@ Signed: Alyssa June Pacleb, Daniel Sanchez Date:
     <script type = "text/javascript">
 	<!--
 		var idx = 0;
-		var imgs = ["img01.JPG","img02.JPG","img03.JPG","img04.JPG",];
-		var captions = ["Leo","Marley","Xasha","Waffle"];
+		var imgs = ["img01.JPG","img02.JPG","img03.JPG","img04.JPG","img05.jpg","img06.jpg"];
+		var captions = ["Leo","Marley","Xasha","Waffle", "Snowy", "Fudge"];
 		
 	
 
 		function slide(){
-			if (idx > 3){
+			if (idx > 5){
 				idx = 0;
 			}
 			
@@ -81,7 +80,7 @@ Signed: Alyssa June Pacleb, Daniel Sanchez Date:
 
 		}
 		
-		setInterval(slide, 3000);
+		setInterval(slide, 5000);
 	// -->
 	</script>	
 </body>
