@@ -7,6 +7,7 @@ HTML {
     display:block;
     font-family:myFirstFont;
     width:100%;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat977.gif),auto;
 }
 
 
@@ -16,9 +17,8 @@ a {
     font-family:myFirstFont;
     color:dimgray;
     font-size: 20px;
-
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat976.gif),auto;
 }
-
 
 a:link {
     text-decoration: none;
@@ -64,6 +64,8 @@ table {
     text-align:center;
     background-color: white;
     color:dimgray;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat976.gif),auto;
+
 }
 
 .TITLE {
@@ -88,8 +90,8 @@ p {
     margin:auto;
     padding-top:10px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 120px;
+    padding-right:120px;
 }
 
 .sub {
@@ -109,6 +111,20 @@ p {
     text-align: left;
     border-bottom:0px none;
     width: 100%;
+}
+
+.all {
+    display:flex;
+    justify-content: center;
+    text-align: left;
+    border-bottom:0px none;
+    width: 100%;
+}
+.all tr {
+    padding:10px;
+}
+tr.spaceUnder>td {
+
 }
 
 .form td {
@@ -146,5 +162,15 @@ button {
     background-color: white;
     color:dimgray;
 }
+
+.post {
+    border:1px solid dimgray;
+    border-radius:4px;
+    padding:20px;
+}
+.caption {
+    font-size: small;
+}
+
 
 

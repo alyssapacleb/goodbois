@@ -3,10 +3,12 @@
     src: url(reg.woff);
 }
 
+
 HTML {
     display:block;
     font-family:myFirstFont;
     width:100%;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat977.gif),auto;
 }
 
 
@@ -15,12 +17,12 @@ a {
     font-family:myFirstFont;
     color:dimgray;
     font-size: 20px;
-
 }
 
 
 a:link {
     text-decoration: none;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat976.gif),auto;
 }
 
 a:visited {
@@ -52,8 +54,6 @@ table {
     padding-left: 40px;
     padding-right: 40px;
 }
-
-
 
 .sub {
     font-size:20pt;
@@ -89,6 +89,7 @@ table {
     text-align:center;
     background-color: white;
     color:dimgray;
+    cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat976.gif),auto;
 }
 .TITLE {
     font-family: myFirstFont;
